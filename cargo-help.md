@@ -5,7 +5,6 @@
 - run the executable binary at `./target/debug/<project_name>` to see the result!
 
 - `cargo check` to check for errors without producing binary
-- `cargo run` to run compile and run
+- `cargo run` to compile and run
 
-
-this is compiled on linux (debian/ubuntu) x86\_64, so other OSes and architectures don't work.
+this is compiled on linux (debian/ubuntu) x86_64, so other OSes and architectures don't work.
