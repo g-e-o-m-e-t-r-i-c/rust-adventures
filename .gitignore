@@ -1,0 +1,3 @@
+# ignore rust extra files
+Cargo.lock
+target/
