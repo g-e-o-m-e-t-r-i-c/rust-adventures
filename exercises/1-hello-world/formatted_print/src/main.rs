@@ -36,7 +36,7 @@ fn main() {
   // used.
   // println!("My name is {0}, {1} {0}", "Bond");
   // FIXME ^ Add the missing argument: "James"
-  println!("My name is {0}, {1} {0}", "James", "Bond"); // FIXED
+  println!("My name is {0}, {1} {0}", "Bond", "James"); // FIXED
 
   // Create a structure named `Structure` which contains an `i32`.
   #[allow(dead_code)]
