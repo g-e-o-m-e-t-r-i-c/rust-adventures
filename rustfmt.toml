@@ -2,7 +2,7 @@
 tab_spaces = 2
 
 # Use tabs instead of spaces.
-# hard_tabs = true
+hard_tabs = true
 
 # Maximum width of one line of code
 max_width = 80
