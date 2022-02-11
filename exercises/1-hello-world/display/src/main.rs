@@ -67,13 +67,14 @@ fn main() {
 	println!("Debug: {:?}", point);
 
 	// display a complex number in the form of a + bi
-	let cx = Complex {
+	let complx = Complex {
 		real: 3.3,
 		imag: 7.2,
 	};
+
 	println!("Compare complex numbers:");
-	println!("Display: {}", cx);
-	println!("Debug: {:?}", cx);
+	println!("Display: {}", complx);
+	println!("Debug: {:?}", complx);
 
 	// Error. Both `Debug` and `Display` were implemented, but `{:b}`
 	// requires `fmt::Binary` to be implemented. This will not work.

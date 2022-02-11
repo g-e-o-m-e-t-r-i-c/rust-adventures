@@ -27,6 +27,7 @@ fn main() {
 		let y = y * 2; // y = 12 in the inner scope, will not be affected in the outer scope
 		println!("y (inner scope): {}", y);
 	}
+
 	println!("y (out of inner scope): {}", y);
 
 	// changing the variable AND its type (only works for immutable variables)

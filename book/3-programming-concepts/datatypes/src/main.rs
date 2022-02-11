@@ -6,7 +6,7 @@ use std::i128;
 fn main() {
 	// 1. TYPE CASTING
 	// if using .parse() to convert string to integer, must include the type
-	//         ***
+	//          ***
 	let _guess: u32 = "42".parse().expect("Not a number!");
 
 	// 2. DATATYPES
@@ -36,7 +36,7 @@ fn main() {
 
 	// arrays (cannot change size)
 	let arr: [i64; 5] = [100, 200, 300, 400, 500]; // define all values
-	let arr2 = [3; 5]; // specify initial value of all elements in array
+	let _arr2 = [3; 5]; // specify initial value of all elements in array
 	println!("first element of arr: {}", arr[0]);
 
 	// 3. OPERATIONS (https://doc.rust-lang.org/book/appendix-02-operators.html)
