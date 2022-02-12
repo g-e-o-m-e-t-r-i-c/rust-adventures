@@ -15,6 +15,6 @@ There is also a short [`cargo` cheat sheet](https://github.com/g-e-o-m-e-t-r-i-c
 
 Not sure why anyone would look at this section, but:
 
-- [Neovim](http://neovim.io/) [[config](https://github.com/g-e-o-m-e-t-r-i-c/dotfiles/tree/master/.config/nvim)]
+- [neovim](http://neovim.io/) [[config](https://github.com/g-e-o-m-e-t-r-i-c/dotfiles/tree/master/.config/nvim)]
   - [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer) as LSP
   - [rustfmt](https://github.com/rust-analyzer/rust-analyzer) as a formatter
