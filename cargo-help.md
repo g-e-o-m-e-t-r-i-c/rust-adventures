@@ -6,5 +6,3 @@
 
 - `cargo check` to check for errors without producing binary
 - `cargo run` to compile and run
-
-this is compiled on linux (debian/ubuntu) x86_64, so other OSes and architectures don't work.

@@ -1,5 +1,5 @@
 /*
-NOTE: Add the `fmt::Display` trait to the `Matrix` struct in the above example,
+1. NOTE: Add the `fmt::Display` trait to the `Matrix` struct in the above example,
 so that if you switch from printing the debug format {:?} to the display format {},
 you see the following output:
 ```
@@ -7,7 +7,7 @@ you see the following output:
 ( 2.1 2.2 )
 ````
 
-NOTE: Add a `transpose` function using the `reverse` function as a template,
+2. NOTE: Add a `transpose` function using the `reverse` function as a template,
 which accepts a matrix as an argument,
 and returns a matrix in which two elements have been swapped. For example:
 ```
