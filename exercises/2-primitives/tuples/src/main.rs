@@ -33,13 +33,14 @@ fn reverse(pair: (i32, bool)) -> (bool, i32) {
 #[derive(Debug)]
 struct Matrix(f32, f32, f32, f32);
 
-// FIX (1)
+// FIXED: (1)
 impl fmt::Display for Matrix {
 	fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
 		write!(f, "( {}, {} )\n( {}, {} )", self.0, self.1, self.2, self.3)
 	}
 }
 
+// FIXED: (2)
 fn transpose(mat: Matrix) -> Matrix {
 	Matrix(mat.0, mat.2, mat.1, mat.3)
 }
@@ -63,7 +64,7 @@ fn main() {
 	// But long Tuples cannot be printed
 	// let too_long_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13);
 	// println!("too long tuple: {:?}", too_long_tuple);
-	// TODO ^ Uncomment the above 2 lines to see the compiler error
+	// TODO: ^ Uncomment the above 2 lines to see the compiler error
 
 	let pair = (1, true);
 	println!("pair is {:?}", pair);
