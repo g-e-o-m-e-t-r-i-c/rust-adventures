@@ -1,7 +1,7 @@
 // remember: this is the file that runs all the main stuff
 use rand::Rng; // random number generator within a range
 use std::cmp::Ordering; // allows for comparison between values
-use std::io; // allows for I/O // random number generator
+use std::io; // allows for I/O
 
 fn main() {
 	// main function, everything happens here
