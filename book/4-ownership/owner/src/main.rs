@@ -32,6 +32,7 @@ fn main() {
 	let x = 69; // `x` comes into scope
 	makes_copy(x); // `x` goes out of scope, then `s`
 }
+
 fn takes_ownership(a_string: String) {
 	// a_string comes into scope
 	println!("{}", a_string);
