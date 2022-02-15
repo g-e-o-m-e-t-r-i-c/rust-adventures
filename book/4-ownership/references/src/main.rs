@@ -51,5 +51,5 @@ fn change(string: &mut String) {
 fn dangle() -> String {
 	let s = String::from("hi");
 	// &s // DANGLE: data cannot go out of scope before the reference does
-	s // FIX: return variable directly
+	s // FIXED: return variable directly
 } // s goes out of scope HERE, dropped; memory goes away
