@@ -8,6 +8,7 @@ enum UsState {
 }
 
 // NOTE: define a custom type `Coin` which can take multiple types of coins as value
+#[allow(dead_code)]
 enum Coin {
 	Penny,
 	Nickel,
@@ -15,6 +16,7 @@ enum Coin {
 	Quarter(UsState), // NOTE: a variant which takes another enum type
 }
 
+#[allow(dead_code)]
 fn value_in_cents(coin: Coin) -> u8 {
 	// NOTE: match the variant of the coin to its respective value
 	match coin {

@@ -8,6 +8,7 @@ enum IpAddrKind {
 }
 
 // NOTE: make structs with enums as fields
+#[allow(dead_code)]
 struct IpAddr {
 	kind: IpAddrKind,
 	address: String,
