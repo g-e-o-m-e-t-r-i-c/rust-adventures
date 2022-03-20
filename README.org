@@ -17,8 +17,8 @@ This repository consists of:
   By Example)
 
 There is also a short
-[[https://github.com/g-e-o-m-e-t-r-i-c/rust-adventures/blob/master/cargo-help.md][=cargo=
-cheat sheet]] to help myself (and you guys, maybe) out with the package
+[[https://github.com/g-e-o-m-e-t-r-i-c/rust-adventures/blob/master/cargo-help.md][cheat
+sheet]] to help myself (and you guys, maybe) out with the =cargo= package
 manager!
 
 ** Stuff I Use
