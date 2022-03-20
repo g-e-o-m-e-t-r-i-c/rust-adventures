@@ -1,0 +1,16 @@
+* look! a cargo project
+  :PROPERTIES:
+  :CUSTOM_ID: cargo-project
+  :END:
+
+- =cargo new <project_name>= to initiate a project
+
+- =cargo build= to build the =src/main.rs= file (and also update
+  dependencies)
+
+- run the executable binary at =./target/debug/<project_name>= to see
+  the result!
+
+- =cargo check= to check for errors without producing binary
+
+- =cargo run= to compile and run

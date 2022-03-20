@@ -1,0 +1,36 @@
+* rust-adventures
+  :PROPERTIES:
+  :CUSTOM_ID: rust-adventures
+  :END:
+Follow me on my journey in learning
+[[https://www.rust-lang.org/learn][Rust]]!
+
+** What does it have?
+   :PROPERTIES:
+   :CUSTOM_ID: what-does-it-have
+   :END:
+This repository consists of:
+
+- Tutorials I follow from the [[https://doc.rust-lang.org/book][book]]
+- My attempts at the
+  [[https://doc.rust-lang.org/stable/rust-by-example][exercises]] (Rust
+  By Example)
+
+There is also a short
+[[https://github.com/g-e-o-m-e-t-r-i-c/rust-adventures/blob/master/cargo-help.md][=cargo=
+cheat sheet]] to help myself (and you guys, maybe) out with the package
+manager!
+
+** Stuff I Use
+   :PROPERTIES:
+   :CUSTOM_ID: stuff-i-use
+   :END:
+Not sure why anyone would look at this section, but:
+
+- [[http://neovim.io/][neovim]]
+  [[[https://github.com/g-e-o-m-e-t-r-i-c/dotfiles/tree/master/.config/nvim][config]]]
+
+  - [[https://github.com/rust-analyzer/rust-analyzer][rust-analyzer]] as
+    LSP
+  - [[https://github.com/rust-analyzer/rust-analyzer][rustfmt]] as a
+    formatter
